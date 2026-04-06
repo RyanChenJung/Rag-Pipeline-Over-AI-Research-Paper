@@ -1,0 +1,14 @@
+# [Jupyter Notebooks]
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# [Data & Metadata]
+data_raw/*
+
+# exception
+!data_raw/.gitkeep
+
+# Python environment and cache
+__pycache__/
+.env
+.venv/
