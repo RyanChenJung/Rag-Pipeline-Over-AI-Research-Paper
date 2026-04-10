@@ -1,0 +1,11 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "dimensions": 384,
+  "vector_db": "ChromaDB",
+  "similarity": "cosine",
+  "chroma_path": "/content/drive/MyDrive/[3Q]Capstone1/Assignment3/chromadb",
+  "collections": {
+    "recursive": 5495,
+    "section": 6118
+  }
+}
