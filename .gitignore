@@ -11,4 +11,4 @@ data_raw/*
 # Python environment and cache
 __pycache__/
 .env
-.venv/
+.venv/.DS_Store
