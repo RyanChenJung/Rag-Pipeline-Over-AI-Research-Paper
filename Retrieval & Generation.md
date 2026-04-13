@@ -1,4 +1,4 @@
-# Part 2 — Retrieval & Generation: Technical Writeup
+# Part 2 — Retrieval & Generation
 
 ---
 
