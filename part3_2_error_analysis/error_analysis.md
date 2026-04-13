@@ -46,6 +46,7 @@ Answer-ground truth similarity scores by modality reveal a consistent pattern ac
 
 **Similarity Score:** 0.0073
 
+
 ### Failure Diagnosis: Retrieval Error — Multimodal Content Gap
 
 The correct paper was successfully retrieved (Hit@3 = ✅). However, the answer requires reading **Figure 2(a)** — a bar chart comparing distortion scores across five biological pathway datasets — which is a visual artifact that the text-based index cannot access. During parsing, Marker extracted the figure as a JPEG file and inserted a `[FIGURE: ...]` placeholder in the Markdown. This placeholder was embedded as part of a text chunk, but carries no visual information.
